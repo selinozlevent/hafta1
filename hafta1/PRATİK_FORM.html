@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pratik Form</title>
+    </head>
+    <body>
+        <h1>Pratik Form</h1>
+        <form>
+            <fieldset>
+                <div>
+                <label for="fullname">İsim:</label>
+                <input type="text" id="fullname">
+                </div>
+                <div>
+                <label for="fullname">Soyisim:</label>
+                <input type="text" id="fullname">
+                </div>
+                 <div>
+                    <label for="email">Eposta:</label>
+                    <input type="email" id="email">
+                </div>
+                <div>
+                    <label for="password">Şifre:</label>
+                    <input type="password" id="password">
+                </div>
+                <div>
+                    <label for="gender">Cinsiyet:</label>
+                    <input type="radio" name="gender" value="male"> Erkek
+                    <input type="radio" name="gender" value="female"> Kadın
+                </div>
+            </fieldset>
+            <fieldset>
+                <div>
+                    <label for="fruit">Favori Meyveniz</label>
+                    <select id="fruit">
+                        <option value="seçiniz..."></option>
+                        <optgroup label="Turunçgiller">
+                        <option value="portakal">portakal</option>
+                        <option value="mandalina">mandalina</option>
+                        <option value="limon">limon</option>
+                        </optgroup>
+                        <optgroup label="Kırmızı meyveler">
+                        <option value="böğürtlen">böğürtlen</option>
+                        <option value="çilek">çilek</option>
+                        <option value="yaban mersini">yaban mersini</option>
+                        </optgroup>  
+                    </select>
+                </div>
+                <div>
+                    <label for="message">Mesajınız:</label>
+                    <textarea id="message" rows="7" cols="30"></textarea>
+                </div>
+            </fieldset>
+        </form>
+    </body>
+</html>
